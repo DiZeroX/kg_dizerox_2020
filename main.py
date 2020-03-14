@@ -2,7 +2,6 @@ import sys
 
 
 def is_one_to_one_mapped(s1, s2):
-    # TODO: complete function
     if len(s1) != len(s2):
         return False
 
