@@ -22,6 +22,7 @@ if __name__ == "__main__":
         sys.exit("Invalid number of arguments")
     string1 = sys.argv[1]
     string2 = sys.argv[2]
-    output = is_one_to_one_mapped(string1, string2)
+    result = is_one_to_one_mapped(string1, string2)
+    output = str(result).lower()
     print(output)
 
